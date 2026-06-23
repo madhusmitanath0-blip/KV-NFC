@@ -1,0 +1,261 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Academics & Campus Facilities | Apex Academy</title>
+    <!-- Meta Descriptions for SEO -->
+    <meta name="description" content="Explore Apex Academy's rigorous academic tiers (Primary, Middle, and High School) and tour our modern campus facilities designed for comprehensive development.">
+    <!-- FontAwesome Icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <!-- Header Navigation -->
+    <header class="header" id="mainHeader">
+        <div class="container nav-wrapper">
+            <a href="index.html" class="logo" id="logoLink">
+                <span class="logo-icon"><i class="fa-solid fa-school"></i></span>
+                Apex Academy
+            </a>
+            
+            <nav class="nav-menu" id="navMenu">
+                <a href="index.html" class="nav-link" id="navHome">Home</a>
+                <a href="academics.html" class="nav-link active" id="navAcademics">Academics</a>
+                <a href="admissions.html" class="nav-link" id="navAdmissions">Admissions & Contact</a>
+            </nav>
+
+            <button class="nav-toggle" id="menuToggle" aria-label="Toggle Navigation">
+                <span></span>
+                <span></span>
+                <span></span>
+            </button>
+        </div>
+    </header>
+
+    <!-- Page Banner -->
+    <section class="page-banner" id="academicsBanner">
+        <div class="container">
+            <h1 class="page-title" id="academicsTitle">Academic Programs</h1>
+            <div class="breadcrumbs" id="academicsBreadcrumbs">
+                <a href="index.html">Home</a> <i class="fa-solid fa-chevron-right" style="font-size: 0.75rem;"></i> <span>Academics</span>
+            </div>
+        </div>
+    </section>
+
+    <!-- Academic Tiers Section (Interactive Tabs) -->
+    <section class="section-padding" id="programsSection">
+        <div class="container">
+            <div class="text-center">
+                <h2 class="section-title" id="programsTitle">Tiers of Education</h2>
+                <p class="section-subtitle" id="programsSubtitle">We deliver tailored pathways that support student capabilities, interests, and developmental milestones.</p>
+            </div>
+
+            <!-- Tab Buttons -->
+            <div class="academic-tabs" id="tabButtonsWrapper">
+                <button class="tab-btn active" data-tab="primarySchool" id="btnPrimaryTab">Primary School (Grades 1-5)</button>
+                <button class="tab-btn" data-tab="middleSchool" id="btnMiddleTab">Middle School (Grades 6-8)</button>
+                <button class="tab-btn" data-tab="highSchool" id="btnHighTab">High School (Grades 9-12)</button>
+            </div>
+
+            <!-- Tab Contents -->
+            <!-- Tab 1: Primary School -->
+            <div class="tab-content active" id="primarySchool">
+                <div class="tab-inner">
+                    <div class="tab-text" id="primaryText">
+                        <h3>Foundation & Curiosity</h3>
+                        <p>Our primary program focuses on cultivating core literacies, numeracy, and initial communication strengths in an environment that values curiosity and creative exploration. Educators use activity-based methodologies to translate theoretical basics into tangible learnings.</p>
+                        <p>We nurture personal confidence, mutual respect, and standard coordination during these foundational years, keeping the learning curve fun yet deeply progressive.</p>
+                        <div class="subject-grid" id="primarySubjectGrid">
+                            <div class="subject-card"><i class="fa-solid fa-book-open"></i> Language & Literacy</div>
+                            <div class="subject-card"><i class="fa-solid fa-calculator"></i> Elementary Arithmetic</div>
+                            <div class="subject-card"><i class="fa-solid fa-flask"></i> Science Explorations</div>
+                            <div class="subject-card"><i class="fa-solid fa-palette"></i> Arts & Crafts</div>
+                        </div>
+                    </div>
+                    <div class="tab-image" id="primaryImg">
+                        <img src="assets/campus_lab.png" alt="Primary school children learning" style="border-radius: var(--radius-md); box-shadow: var(--shadow-md);">
+                    </div>
+                </div>
+            </div>
+
+            <!-- Tab 2: Middle School -->
+            <div class="tab-content" id="middleSchool">
+                <div class="tab-inner">
+                    <div class="tab-text" id="middleText">
+                        <h3>Discovery & Analytical Inquiry</h3>
+                        <p>In Middle School, the curriculum grows to foster abstract analysis, structural reasoning, and teamwork. Students are encouraged to transition from direct understanding to comparative assessment across scientific and literary concepts.</p>
+                        <p>We emphasize scientific methods, digital literacy, and civic awareness to equip middle schoolers with the necessary analytical habits for higher education grades.</p>
+                        <div class="subject-grid" id="middleSubjectGrid">
+                            <div class="subject-card"><i class="fa-solid fa-atom"></i> Integrated Sciences</div>
+                            <div class="subject-card"><i class="fa-solid fa-square-root-variable"></i> Pre-Algebra & Logic</div>
+                            <div class="subject-card"><i class="fa-solid fa-earth-americas"></i> World History</div>
+                            <div class="subject-card"><i class="fa-solid fa-pen-nib"></i> Creative Writing & Lit</div>
+                        </div>
+                    </div>
+                    <div class="tab-image" id="middleImg">
+                        <img src="assets/school_hero.png" alt="Middle school students studying" style="border-radius: var(--radius-md); box-shadow: var(--shadow-md);">
+                    </div>
+                </div>
+            </div>
+
+            <!-- Tab 3: High School -->
+            <div class="tab-content" id="highSchool">
+                <div class="tab-inner">
+                    <div class="tab-text" id="highText">
+                        <h3>Preparation & Global Readiness</h3>
+                        <p>Our High School program provides specialized learning pathways, preparing seniors for top global universities. We offer Advanced Placement (AP) courses, rigorous STEM modules, and robust pre-university SAT/ACT preparation.</p>
+                        <p>Beyond traditional exams, students complete independent research papers, lead club organizations, and engage in social service initiatives, validating their preparedness for global leadership.</p>
+                        <div class="subject-grid" id="highSubjectGrid">
+                            <div class="subject-card"><i class="fa-solid fa-dna"></i> Physics, Chemistry & Bio</div>
+                            <div class="subject-card"><i class="fa-solid fa-chart-line"></i> Calculus & Stats</div>
+                            <div class="subject-card"><i class="fa-solid fa-laptop-code"></i> AI & Computer Science</div>
+                            <div class="subject-card"><i class="fa-solid fa-handshake"></i> Business & Economics</div>
+                        </div>
+                    </div>
+                    <div class="tab-image" id="highImg">
+                        <img src="assets/campus_sports.png" alt="High school student collaboration" style="border-radius: var(--radius-md); box-shadow: var(--shadow-md);">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Faculty Training & Development Section -->
+    <section class="section-padding" id="facultyTrainingSection">
+        <div class="container">
+            <div class="split-section">
+                <div class="split-image-container" id="trainingImgContainer">
+                    <img src="photo/workshop.jpeg" alt="Official Staff Training Workshop" class="split-image" id="trainingImage">
+                    <div class="image-decorative-box"></div>
+                </div>
+                <div class="split-content" id="trainingText">
+                    <span class="timeline-step" style="color: var(--accent); font-weight: 700; font-size: 0.95rem; text-transform: uppercase;">Professional Excellence</span>
+                    <h2 style="font-size: 2.25rem; margin-top: 8px; margin-bottom: 20px;" id="trainingTitle">Faculty Training & Development</h2>
+                    <p>At Apex Academy, we believe that providing outstanding education begins with empowering our educators. Our staff undergoes continuous official training, pedagogy workshops, and skill upgrades to incorporate contemporary educational practices and technological advancements into our classrooms.</p>
+                    <p>From social-emotional mentorship strategies to integrating interactive artificial intelligence tools in lesson plans, our teachers participate in regular workshops to create highly engaging, student-centric environments.</p>
+                    <ul class="bullet-list" id="trainingBulletList">
+                        <li><i class="fa-solid fa-circle-check"></i> Bi-annual Pedagogical and Curriculum Workshops</li>
+                        <li><i class="fa-solid fa-circle-check"></i> Advanced Classroom Management & Inclusivity Seminars</li>
+                        <li><i class="fa-solid fa-circle-check"></i> Certification in Digital Learning and EdTech Tools</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Campus Facilities Section -->
+    <section class="section-padding" style="background-color: var(--primary-ultra-light);" id="facilitiesSection">
+        <div class="container">
+            <div class="text-center">
+                <h2 class="section-title" id="facilitiesTitle">Our Campus & Facilities</h2>
+                <p class="section-subtitle" id="facilitiesSubtitle">Apex Academy provides an outstanding infrastructure designed to support scientific research, athletics, and cultural arts.</p>
+            </div>
+
+            <div class="gallery-grid" id="facilitiesGallery">
+                <!-- Facility 1 -->
+                <div class="gallery-item" id="facilityCardLab">
+                    <img src="assets/campus_lab.png" alt="Science Laboratory">
+                    <div class="gallery-overlay">
+                        <h3 class="gallery-title">Innovation & Science Hub</h3>
+                        <p class="gallery-desc">Fully-equipped Chemistry, Physics, and IT Labs.</p>
+                    </div>
+                </div>
+                <!-- Facility 2 -->
+                <div class="gallery-item" id="facilityCardSports">
+                    <img src="assets/campus_sports.png" alt="Sports Field">
+                    <div class="gallery-overlay">
+                        <h3 class="gallery-title">Apex Arena & Track</h3>
+                        <p class="gallery-desc">Full-size grass field, athletic tracks, and courts.</p>
+                    </div>
+                </div>
+                <!-- Facility 3 -->
+                <div class="gallery-item" id="facilityCardLibrary">
+                    <img src="assets/school_hero.png" alt="School Library">
+                    <div class="gallery-overlay">
+                        <h3 class="gallery-title">Central Digital Library</h3>
+                        <p class="gallery-desc">Over 25,000 reference resources and quiet study suites.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer" id="mainFooter">
+        <div class="container">
+            <div class="footer-grid">
+                <!-- Column 1: Info -->
+                <div class="footer-col" id="footerColInfo">
+                    <a href="index.html" class="logo footer-logo">
+                        <span class="logo-icon"><i class="fa-solid fa-school"></i></span>
+                        Apex Academy
+                    </a>
+                    <p class="footer-desc">Empowering students through high-quality academics, ethical development, and creative skills in a safe, inspiring campus environment.</p>
+                    <div class="social-links">
+                        <a href="#" class="social-link" aria-label="Facebook"><i class="fa-brands fa-facebook-f"></i></a>
+                        <a href="#" class="social-link" aria-label="Twitter"><i class="fa-brands fa-twitter"></i></a>
+                        <a href="#" class="social-link" aria-label="Instagram"><i class="fa-brands fa-instagram"></i></a>
+                        <a href="#" class="social-link" aria-label="LinkedIn"><i class="fa-brands fa-linkedin-in"></i></a>
+                    </div>
+                </div>
+
+                <!-- Column 2: Quick Links -->
+                <div class="footer-col" id="footerColLinks">
+                    <h4 class="footer-title">Quick Links</h4>
+                    <ul class="footer-links">
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="academics.html">Academics</a></li>
+                        <li><a href="admissions.html">Admissions</a></li>
+                        <li><a href="admissions.html#contactSection">Contact Us</a></li>
+                    </ul>
+                </div>
+
+                <!-- Column 3: Academics -->
+                <div class="footer-col" id="footerColAcademics">
+                    <h4 class="footer-title">Academic Tiers</h4>
+                    <ul class="footer-links">
+                        <li><a href="academics.html#primarySchool">Primary Education</a></li>
+                        <li><a href="academics.html#middleSchool">Middle School</a></li>
+                        <li><a href="academics.html#highSchool">High School</a></li>
+                        <li><a href="academics.html#campusFacilities">Campus Facilities</a></li>
+                    </ul>
+                </div>
+
+                <!-- Column 4: Contact -->
+                <div class="footer-col" id="footerColContact">
+                    <h4 class="footer-title">Contact Office</h4>
+                    <ul class="footer-contact">
+                        <li>
+                            <i class="fa-solid fa-location-dot"></i>
+                            <span>100 Innovation Parkway, Educational District, ED 54321</span>
+                        </li>
+                        <li>
+                            <i class="fa-solid fa-phone"></i>
+                            <span>+1 (555) 019-2834</span>
+                        </li>
+                        <li>
+                            <i class="fa-solid fa-envelope"></i>
+                            <span>info@apexacademy.edu</span>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+
+            <!-- Footer Bottom -->
+            <div class="footer-bottom">
+                <p>&copy; 2026 Apex Academy. All rights reserved. Designed with excellence.</p>
+                <div class="footer-legal-links">
+                    <a href="#">Privacy Policy</a>
+                    <a href="#">Terms of Use</a>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Custom JavaScript -->
+    <script src="main.js"></script>
+</body>
+</html>

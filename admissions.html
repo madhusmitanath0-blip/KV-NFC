@@ -1,0 +1,325 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Admissions & Contact | Apex Academy</title>
+    <!-- Meta Descriptions for SEO -->
+    <meta name="description" content="Enroll at Apex Academy today. Learn about our admissions timeline, submit an inquiry through our interactive form, and view office contact details.">
+    <!-- FontAwesome Icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <!-- Header Navigation -->
+    <header class="header" id="mainHeader">
+        <div class="container nav-wrapper">
+            <a href="index.html" class="logo" id="logoLink">
+                <span class="logo-icon"><i class="fa-solid fa-school"></i></span>
+                Apex Academy
+            </a>
+            
+            <nav class="nav-menu" id="navMenu">
+                <a href="index.html" class="nav-link" id="navHome">Home</a>
+                <a href="academics.html" class="nav-link" id="navAcademics">Academics</a>
+                <a href="admissions.html" class="nav-link active" id="navAdmissions">Admissions & Contact</a>
+            </nav>
+
+            <button class="nav-toggle" id="menuToggle" aria-label="Toggle Navigation">
+                <span></span>
+                <span></span>
+                <span></span>
+            </button>
+        </div>
+    </header>
+
+    <!-- Page Banner -->
+    <section class="page-banner" id="admissionsBanner">
+        <div class="container">
+            <h1 class="page-title" id="admissionsTitle">Admissions & Inquiry</h1>
+            <div class="breadcrumbs" id="admissionsBreadcrumbs">
+                <a href="index.html">Home</a> <i class="fa-solid fa-chevron-right" style="font-size: 0.75rem;"></i> <span>Admissions</span>
+            </div>
+        </div>
+    </section>
+
+    <!-- Admissions Steps Timeline -->
+    <section class="section-padding" id="timelineSection">
+        <div class="container">
+            <div class="text-center">
+                <h2 class="section-title" id="timelineTitle">How to Apply</h2>
+                <p class="section-subtitle" id="timelineSubtitle">Follow these clear steps to secure a successful registration for your child at Apex Academy.</p>
+            </div>
+
+            <div class="timeline" id="admissionsTimeline">
+                <!-- Step 1 -->
+                <div class="timeline-item left" id="timeStep1">
+                    <div class="timeline-content">
+                        <span class="timeline-step">Step 01</span>
+                        <h3 class="timeline-title">Application Inquiry</h3>
+                        <p class="timeline-desc">Submit your details via our online inquiry form below or pick up a physical application packet from the admin office.</p>
+                    </div>
+                </div>
+                <!-- Step 2 -->
+                <div class="timeline-item right" id="timeStep2">
+                    <div class="timeline-content">
+                        <span class="timeline-step">Step 02</span>
+                        <h3 class="timeline-title">Review & Evaluation</h3>
+                        <p class="timeline-desc">Our admissions board reviews academic transcripts and sets a date for an interactive student evaluation exam.</p>
+                    </div>
+                </div>
+                <!-- Step 3 -->
+                <div class="timeline-item left" id="timeStep3">
+                    <div class="timeline-content">
+                        <span class="timeline-step">Step 03</span>
+                        <h3 class="timeline-title">Personal Interview</h3>
+                        <p class="timeline-desc">Both parents and the applicant meet with the principal to align on expectation benchmarks and academic aims.</p>
+                    </div>
+                </div>
+                <!-- Step 4 -->
+                <div class="timeline-item right" id="timeStep4">
+                    <div class="timeline-content">
+                        <span class="timeline-step">Step 04</span>
+                        <h3 class="timeline-title">Offer & Enrollment</h3>
+                        <p class="timeline-desc">Successful applicants receive an official admission offer to settle tuition dues and complete administrative registration.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Admissions Form & Contact Section -->
+    <section class="section-padding" style="background-color: var(--primary-ultra-light);" id="contactSection">
+        <div class="container">
+            <div class="contact-grid" id="contactSectionGrid">
+                
+                <!-- Contact info cards (Left Column) -->
+                <div class="contact-info-wrap" id="contactInfoCards">
+                    <div class="text-left">
+                        <h2 style="font-size: 2rem; margin-bottom: 12px; color: var(--primary);" id="contactHeader">Get in Touch</h2>
+                        <p style="color: var(--text-muted); margin-bottom: 30px;">Have questions about documents, sports, or scholarship fees? Contact our helpdesk team directly.</p>
+                    </div>
+
+                    <!-- Location Card -->
+                    <div class="contact-info-card" id="contactCardLocation">
+                        <div class="contact-icon"><i class="fa-solid fa-location-dot"></i></div>
+                        <div class="contact-details">
+                            <h4>Campus Address</h4>
+                            <p>100 Innovation Parkway, Educational District, ED 54321</p>
+                        </div>
+                    </div>
+
+                    <!-- Call Card -->
+                    <div class="contact-info-card" id="contactCardPhone">
+                        <div class="contact-icon"><i class="fa-solid fa-phone"></i></div>
+                        <div class="contact-details">
+                            <h4>Phone Number</h4>
+                            <p>+1 (555) 019-2834</p>
+                            <p>+1 (555) 019-2835 (Admissions Line)</p>
+                        </div>
+                    </div>
+
+                    <!-- Email Card -->
+                    <div class="contact-info-card" id="contactCardEmail">
+                        <div class="contact-icon"><i class="fa-solid fa-envelope"></i></div>
+                        <div class="contact-details">
+                            <h4>Official Email</h4>
+                            <p>info@apexacademy.edu</p>
+                            <p>admissions@apexacademy.edu</p>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Form Card (Right Column) -->
+                <div class="form-card" id="admissionsFormCard">
+                    <h3 class="form-title" id="formHeader">Inquiry Form</h3>
+                    <p class="form-subtitle" id="formSubheader">Submit this request to schedule a campus tour or receive application material.</p>
+                    
+                    <form action="#" method="POST" id="inquiryForm" onsubmit="event.preventDefault(); alert('Thank you for your interest! Our admissions counselor will contact you shortly.'); this.reset();">
+                        <div class="form-row">
+                            <div class="form-group">
+                                <label for="parentName" class="form-label">Parent's Full Name</label>
+                                <input type="text" id="parentName" class="form-control" placeholder="John Doe" required>
+                            </div>
+                            <div class="form-group">
+                                <label for="studentName" class="form-label">Student's Full Name</label>
+                                <input type="text" id="studentName" class="form-control" placeholder="Alex Doe" required>
+                            </div>
+                        </div>
+
+                        <div class="form-row">
+                            <div class="form-group">
+                                <label for="emailAddr" class="form-label">Email Address</label>
+                                <input type="email" id="emailAddr" class="form-control" placeholder="johndoe@example.com" required>
+                            </div>
+                            <div class="form-group">
+                                <label for="phoneNum" class="form-label">Phone Number</label>
+                                <input type="tel" id="phoneNum" class="form-control" placeholder="+1 (555) 000-0000" required>
+                            </div>
+                        </div>
+
+                        <div class="form-group full-width">
+                            <label for="gradeLevel" class="form-label">Desired Grade Level</label>
+                            <select id="gradeLevel" class="form-control" required>
+                                <option value="" disabled selected>Select educational tier...</option>
+                                <option value="primary">Primary School (Grades 1-5)</option>
+                                <option value="middle">Middle School (Grades 6-8)</option>
+                                <option value="high">High School (Grades 9-12)</option>
+                            </select>
+                        </div>
+
+                        <div class="form-group full-width">
+                            <label for="messageText" class="form-label">Additional Message / Question</label>
+                            <textarea id="messageText" class="form-control" placeholder="Please type any questions regarding scheduling, bus routes, or fee packages..."></textarea>
+                        </div>
+
+                        <button type="submit" class="btn btn-primary" style="width: 100%; border-radius: var(--radius-sm);" id="formSubmitBtn">Submit Inquiry</button>
+                    </form>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <!-- FAQ Accordion Section -->
+    <section class="section-padding" id="faqSection">
+        <div class="container">
+            <div class="text-center">
+                <h2 class="section-title" id="faqTitle">Frequently Asked Questions</h2>
+                <p class="section-subtitle" id="faqSubtitle">Here are answers to the questions most commonly asked by prospective parents and students.</p>
+            </div>
+
+            <div class="faq-accordion" id="accordionContainer">
+                <!-- FAQ Item 1 -->
+                <div class="faq-item" id="faqItem1">
+                    <div class="faq-header">
+                        <span>What are the school hours?</span>
+                        <div class="faq-icon"><i class="fa-solid fa-chevron-down"></i></div>
+                    </div>
+                    <div class="faq-body">
+                        <div class="faq-content">
+                            Primary tier classes run from 8:00 AM to 2:30 PM. Middle and High school levels operate from 8:00 AM to 3:30 PM. Extracurricular sports and club practices run from 3:45 PM to 5:00 PM on designated weeknights.
+                        </div>
+                    </div>
+                </div>
+
+                <!-- FAQ Item 2 -->
+                <div class="faq-item" id="faqItem2">
+                    <div class="faq-header">
+                        <span>Is school bus transportation available?</span>
+                        <div class="faq-icon"><i class="fa-solid fa-chevron-down"></i></div>
+                    </div>
+                    <div class="faq-body">
+                        <div class="faq-content">
+                            Yes, we maintain a comprehensive network of air-conditioned school buses that pick up and drop off students across major metropolitan routes. Every route is equipped with GPS tracking and an on-board safety coordinator.
+                        </div>
+                    </div>
+                </div>
+
+                <!-- FAQ Item 3 -->
+                <div class="faq-item" id="faqItem3">
+                    <div class="faq-header">
+                        <span>Are there scholarship options for outstanding students?</span>
+                        <div class="faq-icon"><i class="fa-solid fa-chevron-down"></i></div>
+                    </div>
+                    <div class="faq-body">
+                        <div class="faq-content">
+                            Apex Academy offers merit-based and sports-based scholarship discounts ranging from 10% to 50% on tuition fees for students entering Grade 9 through 12, subject to annual assessment scores and interview reviews.
+                        </div>
+                    </div>
+                </div>
+
+                <!-- FAQ Item 4 -->
+                <div class="faq-item" id="faqItem4">
+                    <div class="faq-header">
+                        <span>What is the standard student-to-teacher ratio?</span>
+                        <div class="faq-icon"><i class="fa-solid fa-chevron-down"></i></div>
+                    </div>
+                    <div class="faq-body">
+                        <div class="faq-content">
+                            To ensure high-quality interactive learning and personal guidance, our average class size is capped at 24 students. The student-to-educator ratio is maintained at 12:1.
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer" id="mainFooter">
+        <div class="container">
+            <div class="footer-grid">
+                <!-- Column 1: Info -->
+                <div class="footer-col" id="footerColInfo">
+                    <a href="index.html" class="logo footer-logo">
+                        <span class="logo-icon"><i class="fa-solid fa-school"></i></span>
+                        Apex Academy
+                    </a>
+                    <p class="footer-desc">Empowering students through high-quality academics, ethical development, and creative skills in a safe, inspiring campus environment.</p>
+                    <div class="social-links">
+                        <a href="#" class="social-link" aria-label="Facebook"><i class="fa-brands fa-facebook-f"></i></a>
+                        <a href="#" class="social-link" aria-label="Twitter"><i class="fa-brands fa-twitter"></i></a>
+                        <a href="#" class="social-link" aria-label="Instagram"><i class="fa-brands fa-instagram"></i></a>
+                        <a href="#" class="social-link" aria-label="LinkedIn"><i class="fa-brands fa-linkedin-in"></i></a>
+                    </div>
+                </div>
+
+                <!-- Column 2: Quick Links -->
+                <div class="footer-col" id="footerColLinks">
+                    <h4 class="footer-title">Quick Links</h4>
+                    <ul class="footer-links">
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="academics.html">Academics</a></li>
+                        <li><a href="admissions.html">Admissions</a></li>
+                        <li><a href="admissions.html#contactSection">Contact Us</a></li>
+                    </ul>
+                </div>
+
+                <!-- Column 3: Academics -->
+                <div class="footer-col" id="footerColAcademics">
+                    <h4 class="footer-title">Academic Tiers</h4>
+                    <ul class="footer-links">
+                        <li><a href="academics.html#primarySchool">Primary Education</a></li>
+                        <li><a href="academics.html#middleSchool">Middle School</a></li>
+                        <li><a href="academics.html#highSchool">High School</a></li>
+                        <li><a href="academics.html#campusFacilities">Campus Facilities</a></li>
+                    </ul>
+                </div>
+
+                <!-- Column 4: Contact -->
+                <div class="footer-col" id="footerColContact">
+                    <h4 class="footer-title">Contact Office</h4>
+                    <ul class="footer-contact">
+                        <li>
+                            <i class="fa-solid fa-location-dot"></i>
+                            <span>100 Innovation Parkway, Educational District, ED 54321</span>
+                        </li>
+                        <li>
+                            <i class="fa-solid fa-phone"></i>
+                            <span>+1 (555) 019-2834</span>
+                        </li>
+                        <li>
+                            <i class="fa-solid fa-envelope"></i>
+                            <span>info@apexacademy.edu</span>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+
+            <!-- Footer Bottom -->
+            <div class="footer-bottom">
+                <p>&copy; 2026 Apex Academy. All rights reserved. Designed with excellence.</p>
+                <div class="footer-legal-links">
+                    <a href="#">Privacy Policy</a>
+                    <a href="#">Terms of Use</a>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Custom JavaScript -->
+    <script src="main.js"></script>
+</body>
+</html>

@@ -1,0 +1,315 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Apex Academy | Inspiring Excellence & Character</title>
+    <!-- Meta Descriptions for SEO -->
+    <meta name="description" content="Welcome to Apex Academy, where we inspire academic excellence, build strong character, and prepare students for global success through state-of-the-art education.">
+    <!-- FontAwesome Icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <!-- Header Navigation -->
+    <header class="header" id="mainHeader">
+        <div class="container nav-wrapper">
+            <a href="index.html" class="logo" id="logoLink">
+                <span class="logo-icon"><i class="fa-solid fa-school"></i></span>
+                Apex Academy
+            </a>
+            
+            <nav class="nav-menu" id="navMenu">
+                <a href="index.html" class="nav-link active" id="navHome">Home</a>
+                <a href="academics.html" class="nav-link" id="navAcademics">Academics</a>
+                <a href="admissions.html" class="nav-link" id="navAdmissions">Admissions & Contact</a>
+            </nav>
+
+            <button class="nav-toggle" id="menuToggle" aria-label="Toggle Navigation">
+                <span></span>
+                <span></span>
+                <span></span>
+            </button>
+        </div>
+    </header>
+
+    <!-- Hero Section -->
+    <section class="hero" id="heroSection">
+        <div class="container">
+            <div class="hero-content">
+                <div class="hero-badge">
+                    <i class="fa-solid fa-bell"></i> Admissions Open for AY 2026 - 2027
+                </div>
+                <h1 class="hero-title">Inspiring the Leaders of <span>Tomorrow</span></h1>
+                <p class="hero-desc">At Apex Academy, we combine rigorous academic standards, state-of-the-art facilities, and holistic values to cultivate lifelong learners ready to make a global impact.</p>
+                <div class="hero-actions">
+                    <a href="admissions.html" class="btn btn-accent" id="heroApplyBtn">Apply Today</a>
+                    <a href="academics.html" class="btn btn-outline" style="border-color: #fff; color: #fff;" id="heroExploreBtn">Explore Programs</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Stats Section -->
+    <section class="stats-bar" id="statsSection">
+        <div class="container">
+            <div class="stats-grid">
+                <div class="stat-card" id="statLegacy">
+                    <div class="stat-number">15+</div>
+                    <div class="stat-label">Years of Legacy</div>
+                </div>
+                <div class="stat-card" id="statUniversity">
+                    <div class="stat-number">98%</div>
+                    <div class="stat-label">University Acceptance</div>
+                </div>
+                <div class="stat-card" id="statRatio">
+                    <div class="stat-number">12:1</div>
+                    <div class="stat-label">Student-Teacher Ratio</div>
+                </div>
+                <div class="stat-card" id="statActivities">
+                    <div class="stat-number">35+</div>
+                    <div class="stat-label">Co-curricular Programs</div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Welcome Section (Split Layout) -->
+    <section class="section-padding" id="welcomeSection">
+        <div class="container">
+            <div class="split-section">
+                <div class="split-image-container" id="welcomeImgContainer">
+                    <img src="assets/campus_lab.png" alt="Students in science laboratory" class="split-image" id="welcomeImage">
+                    <div class="image-decorative-box"></div>
+                </div>
+                <div class="split-content" id="welcomeText">
+                    <h2 id="welcomeTitle">Welcome to Apex Academy</h2>
+                    <p>Founded on a vision of holistic development, Apex Academy stands as a beacon of academic excellence and character formation. We believe in providing an environment that fosters intellectual curiosity, encourages innovative thinking, and instills strong moral values.</p>
+                    <p>Our comprehensive learning ecosystem provides opportunities for students to excel academically, showcase artistic talents, and develop physical coordination on our sports fields.</p>
+                    <ul class="bullet-list" id="welcomeBulletList">
+                        <li><i class="fa-solid fa-circle-check"></i> Globally Recognized International Curriculum</li>
+                        <li><i class="fa-solid fa-circle-check"></i> Credentialed Educators and Specialized Mentorship</li>
+                        <li><i class="fa-solid fa-circle-check"></i> Cutting-edge Stem & Arts Labs</li>
+                    </ul>
+                    <a href="academics.html" class="btn btn-primary" id="welcomeLearnBtn">Learn More About Us</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Leadership Messages Section -->
+    <section class="section-padding" style="background-color: var(--bg-card); border-top: 1px solid var(--border-color);" id="leadershipSection">
+        <div class="container">
+            <div class="text-center">
+                <span class="timeline-step" style="color: var(--accent); font-weight: 700; font-size: 0.95rem; text-transform: uppercase;">Leadership Perspective</span>
+                <h2 class="section-title" id="leadershipTitle" style="margin-top: 8px;">Messages from Leadership</h2>
+                <p class="section-subtitle" id="leadershipSubtitle">Hear from the pillars of guidance who direct our educational policies and campus development.</p>
+            </div>
+            
+            <div style="display: grid; grid-template-columns: 1fr 1fr; gap: 40px; margin-top: 20px;" class="leadership-grid">
+                <!-- Column 1: Assistant Commissioner (Left Side) -->
+                <div class="value-card" style="padding: 40px; display: flex; flex-direction: column; justify-content: space-between;" id="acMessageCard">
+                    <div>
+                        <div class="leader-photo-wrapper" id="acImgContainer">
+                            <div class="leader-photo-frame">
+                                <img src="photo/AC.jpeg" alt="Assistant Commissioner" id="acImage">
+                            </div>
+                        </div>
+                        <h3 style="font-size: 1.5rem; margin-bottom: 16px; color: var(--primary);" id="acTitle">Message from the Assistant Commissioner</h3>
+                        <blockquote style="font-style: italic; border-left: 4px solid var(--accent); padding-left: 16px; margin-bottom: 20px; font-size: 1rem; color: var(--text-dark);">
+                            "Our mandate is to ensure quality education, transparent administration, and standard compliance across all educational hubs. We strive to create environments where potential translates into direct social progress."
+                        </blockquote>
+                        <p style="font-size: 0.95rem; line-height: 1.6; color: var(--text-body); margin-bottom: 20px;">It is a privilege to oversee the institutional growth and governance at Apex Academy. We are dedicated to maintaining strict educational benchmarks, providing robust infrastructural support, and ensuring that our curriculum aligns with global technological advancements. We believe that empowering educators is the key to raising independent, innovative, and ethically grounded global citizens.</p>
+                    </div>
+                    <div style="margin-top: auto; padding-top: 20px; border-top: 1px solid var(--border-color);">
+                        <h4 style="font-size: 1.15rem; color: var(--primary); margin-bottom: 4px;" id="acSignatureName">Mrs. Chinmayee Satpathy</h4>
+                        <p style="font-size: 0.85rem; color: var(--text-muted); font-weight: 500;">Assistant Commissioner, Educational Board</p>
+                    </div>
+                </div>
+
+                <!-- Column 2: Principal (Right Side) -->
+                <div class="value-card" style="padding: 40px; display: flex; flex-direction: column; justify-content: space-between;" id="principalMessageCard">
+                    <div>
+                        <div class="leader-photo-wrapper" id="principalImgContainer">
+                            <div class="leader-photo-frame">
+                                <img src="photo/principal.jpeg" alt="Principal Ms. Madhusmita" id="principalImage">
+                            </div>
+                        </div>
+                        <h3 style="font-size: 1.5rem; margin-bottom: 16px; color: var(--primary);" id="principalTitle">Message from the Principal</h3>
+                        <blockquote style="font-style: italic; border-left: 4px solid var(--accent); padding-left: 16px; margin-bottom: 20px; font-size: 1rem; color: var(--text-dark);">
+                            "Education is not the learning of facts, but the training of the mind to think. We guide our students to discover their passions, hone their talents, and step into the world with confidence and empathy."
+                        </blockquote>
+                        <p style="font-size: 0.95rem; line-height: 1.6; color: var(--text-body); margin-bottom: 20px;">Welcome to our vibrant academic community. Since our founding, we have remained committed to fostering an atmosphere of exploration, character growth, and academic rigor. Our dedicated faculty work tirelessly to provide individualized support, ensuring every student develops the critical thinking, communication, and collaboration skills required in the modern global landscape.</p>
+                    </div>
+                    <div style="margin-top: auto; padding-top: 20px; border-top: 1px solid var(--border-color);">
+                        <h4 style="font-size: 1.15rem; color: var(--primary); margin-bottom: 4px;" id="principalSignatureName">Ms. Madhusmita</h4>
+                        <p style="font-size: 0.85rem; color: var(--text-muted); font-weight: 500;">Principal, Apex Academy</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Core Values Section -->
+    <section class="section-padding" style="background-color: var(--primary-ultra-light);" id="valuesSection">
+        <div class="container">
+            <div class="text-center">
+                <h2 class="section-title" id="valuesTitle">Our Pillars of Excellence</h2>
+                <p class="section-subtitle" id="valuesSubtitle">These foundations guide our academic pathways, shape campus culture, and prepare students for life's challenges.</p>
+            </div>
+            
+            <div class="values-grid">
+                <!-- Academic Rigor -->
+                <div class="value-card" id="valueCardRigor">
+                    <div class="value-icon"><i class="fa-solid fa-graduation-cap"></i></div>
+                    <h3 class="value-title">Academic Rigor</h3>
+                    <p class="value-desc">We challenge students with a dynamic curriculum that sparks inquiry, analytical reflection, and real-world problem-solving abilities.</p>
+                </div>
+                <!-- Character & Integrity -->
+                <div class="value-card" id="valueCardIntegrity">
+                    <div class="value-icon"><i class="fa-solid fa-heart-pulse"></i></div>
+                    <h3 class="value-title">Character & Integrity</h3>
+                    <p class="value-desc">We place mutual respect, empathy, and social responsibility at the core of all learning, cultivating honest, supportive leaders.</p>
+                </div>
+                <!-- Global Perspective -->
+                <div class="value-card" id="valueCardPerspective">
+                    <div class="value-icon"><i class="fa-solid fa-earth-americas"></i></div>
+                    <h3 class="value-title">Global Perspective</h3>
+                    <p class="value-desc">Students explore diverse cultures and global issues, prepping them for collaborative action and adaptability in an interconnected economy.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- News & Events Section -->
+    <section class="section-padding" id="newsSection">
+        <div class="container">
+            <div class="text-center">
+                <h2 class="section-title" id="newsTitle">News & Campus Events</h2>
+                <p class="section-subtitle" id="newsSubtitle">Stay connected with the latest breakthroughs, accolades, and upcoming schedules at Apex Academy.</p>
+            </div>
+
+            <div class="news-grid">
+                <!-- News Card 1 -->
+                <article class="news-card" id="newsCard1">
+                    <div class="news-image">
+                        <img src="assets/campus_sports.png" alt="School sports championship">
+                        <span class="news-category">Athletics</span>
+                    </div>
+                    <div class="news-info">
+                        <div class="news-date"><i class="fa-regular fa-calendar"></i> June 15, 2026</div>
+                        <h3 class="news-card-title"><a href="#">Apex Athletics Team Clinches State Championship Title</a></h3>
+                        <p class="news-excerpt">Our high school varsity team demonstrated incredible determination and skill, bringing home the annual gold trophy.</p>
+                        <a href="#" class="read-more">Read Full Story <i class="fa-solid fa-arrow-right-long"></i></a>
+                    </div>
+                </article>
+
+                <!-- News Card 2 -->
+                <article class="news-card" id="newsCard2">
+                    <div class="news-image">
+                        <img src="assets/campus_lab.png" alt="Robotics lab inauguration">
+                        <span class="news-category">Science & Tech</span>
+                    </div>
+                    <div class="news-info">
+                        <div class="news-date"><i class="fa-regular fa-calendar"></i> June 08, 2026</div>
+                        <h3 class="news-card-title"><a href="#">Inauguration of state-of-the-art AI & Robotics Lab</a></h3>
+                        <p class="news-excerpt">Equipped with 3D printers and micro-controllers, our new tech facility launches hands-on courses in machine learning.</p>
+                        <a href="#" class="read-more">Read Full Story <i class="fa-solid fa-arrow-right-long"></i></a>
+                    </div>
+                </article>
+
+                <!-- News Card 3 -->
+                <article class="news-card" id="newsCard3">
+                    <div class="news-image">
+                        <img src="assets/school_hero.png" alt="Campus open day exhibition">
+                        <span class="news-category">Academics</span>
+                    </div>
+                    <div class="news-info">
+                        <div class="news-date"><i class="fa-regular fa-calendar"></i> May 28, 2026</div>
+                        <h3 class="news-card-title"><a href="#">Annual Innovation & Arts Fair Draws Massive Crowd</a></h3>
+                        <p class="news-excerpt">From sustainable architectural models to live theater, students showcased brilliant projects during this year's expo.</p>
+                        <a href="#" class="read-more">Read Full Story <i class="fa-solid fa-arrow-right-long"></i></a>
+                    </div>
+                </article>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer" id="mainFooter">
+        <div class="container">
+            <div class="footer-grid">
+                <!-- Column 1: Info -->
+                <div class="footer-col" id="footerColInfo">
+                    <a href="index.html" class="logo footer-logo">
+                        <span class="logo-icon"><i class="fa-solid fa-school"></i></span>
+                        Apex Academy
+                    </a>
+                    <p class="footer-desc">Empowering students through high-quality academics, ethical development, and creative skills in a safe, inspiring campus environment.</p>
+                    <div class="social-links">
+                        <a href="#" class="social-link" aria-label="Facebook"><i class="fa-brands fa-facebook-f"></i></a>
+                        <a href="#" class="social-link" aria-label="Twitter"><i class="fa-brands fa-twitter"></i></a>
+                        <a href="#" class="social-link" aria-label="Instagram"><i class="fa-brands fa-instagram"></i></a>
+                        <a href="#" class="social-link" aria-label="LinkedIn"><i class="fa-brands fa-linkedin-in"></i></a>
+                    </div>
+                </div>
+
+                <!-- Column 2: Quick Links -->
+                <div class="footer-col" id="footerColLinks">
+                    <h4 class="footer-title">Quick Links</h4>
+                    <ul class="footer-links">
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="academics.html">Academics</a></li>
+                        <li><a href="admissions.html">Admissions</a></li>
+                        <li><a href="admissions.html#contactSection">Contact Us</a></li>
+                    </ul>
+                </div>
+
+                <!-- Column 3: Academics -->
+                <div class="footer-col" id="footerColAcademics">
+                    <h4 class="footer-title">Academic Tiers</h4>
+                    <ul class="footer-links">
+                        <li><a href="academics.html#primarySchool">Primary Education</a></li>
+                        <li><a href="academics.html#middleSchool">Middle School</a></li>
+                        <li><a href="academics.html#highSchool">High School</a></li>
+                        <li><a href="academics.html#campusFacilities">Campus Facilities</a></li>
+                    </ul>
+                </div>
+
+                <!-- Column 4: Contact -->
+                <div class="footer-col" id="footerColContact">
+                    <h4 class="footer-title">Contact Office</h4>
+                    <ul class="footer-contact">
+                        <li>
+                            <i class="fa-solid fa-location-dot"></i>
+                            <span>100 Innovation Parkway, Educational District, ED 54321</span>
+                        </li>
+                        <li>
+                            <i class="fa-solid fa-phone"></i>
+                            <span>+1 (555) 019-2834</span>
+                        </li>
+                        <li>
+                            <i class="fa-solid fa-envelope"></i>
+                            <span>info@apexacademy.edu</span>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+
+            <!-- Footer Bottom -->
+            <div class="footer-bottom">
+                <p>&copy; 2026 Apex Academy. All rights reserved. Designed with excellence.</p>
+                <div class="footer-legal-links">
+                    <a href="#">Privacy Policy</a>
+                    <a href="#">Terms of Use</a>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Custom JavaScript -->
+    <script src="main.js"></script>
+</body>
+</html>
